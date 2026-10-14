@@ -21,7 +21,7 @@ public class NonBlockingClient {
 		client.configureBlocking(false);
 
 //		 Connection to host port 8000
-		client.connect(new java.net.InetSocketAddress("localhost",8000));
+		client.connect(new java.net.InetSocketAddress("192.168.1.37",8000)); // 192.168.1.37 is the IP address of the PC server
 
 //		 Create selector
 		Selector selector = Selector.open();

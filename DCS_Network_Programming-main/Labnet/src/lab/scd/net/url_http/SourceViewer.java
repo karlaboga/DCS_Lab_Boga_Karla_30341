@@ -16,7 +16,7 @@ public class SourceViewer {
 				InputStream in = u.openStream( );
 				// buffer the input to increase performance
 				in = new BufferedInputStream(in);
-				// chain the InputStream to a Reader
+				// chain the InpLutStream to a Reader
 				Reader r = new InputStreamReader(in);
 				int c;
 				while ((c = r.read( )) != -1) {
